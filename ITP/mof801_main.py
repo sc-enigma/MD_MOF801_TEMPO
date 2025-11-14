@@ -3,11 +3,11 @@ import numpy as np
 import pickle
 
 # sys.path.append('../components')
-from atom import Atom, select_atoms, remove_atoms, mol2_to_atoms, count_atoms, shift_atoms, dump_atoms, count_atoms
+from atom import Atom, select_atoms, remove_atoms, mol2_to_atoms, count_atoms, shift_atoms, dump_atoms, count_atoms, shift_atoms
 from read_utils import read_mol2_file
 from write_utils import write_gro_file, write_mol2_file
 from write_utils import write_atoms, write_bonds, write_angles, write_dihedrals, compose_itp_files
-from pbc import select_pbc, calculate_lattice_vectors
+from pbc import calculate_lattice_vectors, select_in_box
 from params_detector import detect_bonds, detect_angles, detect_dihedrals
 
 from mof801_utils import remove_extra_oxygens, define_mof801_atom_types, define_mof801_atom_names, check_mof801_atom_names
@@ -21,9 +21,7 @@ c     = 17.8348
 alpha = 90.00 / 180 * np.pi
 beta  = 90.00 / 180 * np.pi
 gamma = 90.00 / 180 * np.pi
-
-bounds_a, bounds_b, bounds_c = [0.0, 2.0], [0.0, 2.0], [0.0, 2.0]
-
+bounds_a, bounds_b, bounds_c = [0.0, 2.5], [0.0, 2.5], [0.0, 2.5]
 atoms = mol2_to_atoms(read_mol2_file('__mof801_source.mol2'))
 
 # STEP 2. Define atom types and names
@@ -32,22 +30,21 @@ atoms = define_mof801_atom_names(atoms)
 atoms = remove_atoms(atoms, select_atoms(atoms,'itcFF_O3'))
 
 # STEP 2. Apply periodic boundary conditions
-atoms = select_pbc(atoms)
-atoms = remove_extra_oxygens(atoms)
+atoms = shift_atoms(atoms, np.array([-8.04, -8.04, -8.04]))
+atoms = select_in_box(atoms, [0.00, 37.36], [0.00, 37.36], [0.00, 37.36])
 
 # STEP 4. Write .gro and .mol2 files for large pore structure
 with open('__tmp/atoms_zif7_lp.pickle', 'wb') as handle:
     pickle.dump(atoms, handle, protocol=pickle.HIGHEST_PROTOCOL)
 write_gro_file(atoms, 'mof_801.gro', a, b, c, alpha, beta, gamma, bounds_a, bounds_b, bounds_c)
-write_mol2_file(atoms, 'mof_801.mol2', a, b, c, alpha, beta, gamma, skip_long_bonds=False)
+write_mol2_file(atoms, 'mof_801.mol2', a, b, c, alpha, beta, gamma)
 
 # STEP 5. Write .itp files
 check_mof801_atom_names(atoms)
 mass, charge, bond_params, angle_params, dihedral_params = get_mof801_params()
-
 write_atoms(atoms, charge, mass, 'MOF', 'atoms.itp')
-write_bonds(atoms, bond_params, 'bonds_np.itp')
-write_angles(atoms, angle_params, 'angles_np.itp')
-write_dihedrals(atoms, dihedral_params, 'dihedrals_np.itp')
-compose_itp_files(['atomtypes.itp', 'moleculetype.itp', 'atoms.itp', 'bonds_np.itp', 'angles_np.itp', 'dihedrals_np.itp'], 'zif7_np.itp')
+write_bonds(atoms, bond_params, 'bonds.itp')
+write_angles(atoms, angle_params, 'angles.itp')
+write_dihedrals(atoms, dihedral_params, 'dihedrals.itp')
+compose_itp_files(['atomtypes.itp', 'moleculetype.itp', 'atoms.itp', 'bonds.itp', 'angles.itp', 'dihedrals.itp'], 'mof801.itp')
 

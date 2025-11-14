@@ -40,7 +40,7 @@ def apply_pbc(atoms,
               a, b, c,
               alpha, beta, gamma,
               bounds_a, bounds_b, bounds_c):
-    
+    '''
     # to create unique.npy and adjacency_data.pickle decomment code below
 
     tol_internal = 1e-3
@@ -48,9 +48,9 @@ def apply_pbc(atoms,
     # define what atoms are unique and what are copies
     for atom_idx in range(len(atoms)):
         unique[atom_idx] = (\
-            atoms[atom_idx].r[0] > 8.04 and atoms[atom_idx].r[0] < 44.1 and
-            atoms[atom_idx].r[1] > 8.04 and atoms[atom_idx].r[1] < 44.1 and
-            atoms[atom_idx].r[2] > 8.04 and atoms[atom_idx].r[2] < 44.1)
+            atoms[atom_idx].r[0] > 0.00 and atoms[atom_idx].r[0] < 37.36 and
+            atoms[atom_idx].r[1] > 0.00 and atoms[atom_idx].r[1] < 37.36 and
+            atoms[atom_idx].r[2] > 0.00 and atoms[atom_idx].r[2] < 37.36)
     
     # correct adjacency: remove ids of copies by ids of their originals
     tol_internal = 1e-3
@@ -99,16 +99,17 @@ def apply_pbc(atoms,
             if adjacency[adj_idx] == atom_idx or adjacency[adj_idx] >= len(atoms):
                 print('ERROR')
     return atoms
+    '''
 
-def select_pbc(atoms):
+def select_in_box(atoms, bounds_x, bounds_y, bounds_z):
     new_atoms = []
     shift = {}
     count = 0
     for atom_idx in range(len(atoms)):
         if \
-           atoms[atom_idx].r[0] > 8.04 and atoms[atom_idx].r[0] < 44.1 and \
-           atoms[atom_idx].r[1] > 8.04 and atoms[atom_idx].r[1] < 44.1 and \
-           atoms[atom_idx].r[2] > 8.04 and atoms[atom_idx].r[2] < 44.1:
+           atoms[atom_idx].r[0] > bounds_x[0] and atoms[atom_idx].r[0] < bounds_x[1] and \
+           atoms[atom_idx].r[1] > bounds_y[0] and atoms[atom_idx].r[1] < bounds_y[1] and \
+           atoms[atom_idx].r[2] > bounds_z[0] and atoms[atom_idx].r[2] < bounds_z[1]:
             new_atoms.append(atoms[atom_idx])
             shift[atom_idx] = count
             count += 1

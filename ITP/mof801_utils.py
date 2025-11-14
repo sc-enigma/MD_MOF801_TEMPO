@@ -21,8 +21,9 @@ def remove_extra_oxygens(atoms):
         else:
             shift_ids[atom_idx] = atom_idx - removed_count
             new_atoms.append(atoms[atom_idx])
+    print(np.size(atoms), np.size(new_atoms))
     atoms = new_atoms
-
+    
     for atom_idx in range(len(atoms)):
         adjacency = atoms[atom_idx].adjacency
         for adj_idx in range(len(adjacency)):
