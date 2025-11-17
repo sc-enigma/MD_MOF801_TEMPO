@@ -7,10 +7,11 @@ class Atom:
         self.r = np.array(r)
         
         # topology properties
-        self.resid_idx = 0
+        self.resid_idx = 1
         self.resid = 'UNK'
         self.atom_idx = 0
         self.atom_type = 'unk_type'
+        self.mol2name = ''
         
         # internal properties
         self.r_internal = np.zeros(3)
@@ -22,6 +23,7 @@ def copy_atom(atom):
     a.resid = atom.resid
     a.atom_idx = atom.atom_idx
     a.atom_type = atom.atom_type
+    self.mol2name = atom.mol2name
     a.r_internal = np.array(a.r_internal)
     a.adjacency = atom.adjacency.copy()
     return a
@@ -37,6 +39,8 @@ def mol2_to_atoms(data):
         name = split[1]
         r = [float(c) for c in split[2:5]]
         atoms.append(Atom(name, r))
+        atoms[-1].atom_idx = atom_idx
+        atoms[-1].mol2name = split[5]
     
     if 'BOND' in data.keys():
         data_bonds = data['BOND']
