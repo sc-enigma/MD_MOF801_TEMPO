@@ -48,14 +48,14 @@ def define_mof801_atom_types(atoms):
         if atoms[atom_idx].name[0] == 'Z':
             atoms[atom_idx].atom_type = 'itcFF_Zr'
     
-    # define H: itcFF_H
+    # define H1: itcFF_H1
     for atom_idx in range(len(atoms)):
-        if atoms[atom_idx].name[0] == 'H':
-            atoms[atom_idx].atom_type = 'itcFF_H'
+        if atoms[atom_idx].mol2name == 'H':
+            atoms[atom_idx].atom_type = 'itcFF_H1'
         
     # define H7: itcFF_H7
     for atom_idx in range(len(atoms)):
-        if atoms[atom_idx].name[0] == 'H7':
+        if atoms[atom_idx].mol2name == 'H7':
             atoms[atom_idx].atom_type = 'itcFF_H7'
     
     # define O1: itcFF_O1

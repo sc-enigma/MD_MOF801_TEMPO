@@ -35,7 +35,6 @@ check_mof801_atom_names(atoms)
 write_gro_file(atoms, 'mof_801.gro', a, b, c, alpha, beta, gamma, bounds_a, bounds_b, bounds_c)
 write_mol2_file(atoms, 'mof_801.mol2', a, b, c, alpha, beta, gamma)
 
-'''
 # STEP 4. Write .itp files
 check_mof801_atom_names(atoms)
 mass, charge, bond_params, angle_params, dihedral_params = get_mof801_params()
@@ -44,5 +43,4 @@ write_bonds(atoms, bond_params, 'bonds.itp')
 write_angles(atoms, angle_params, 'angles.itp')
 write_dihedrals(atoms, dihedral_params, 'dihedrals.itp')
 compose_itp_files(['atomtypes.itp', 'moleculetype.itp', 'atoms.itp', 'bonds.itp', 'angles.itp', 'dihedrals.itp'], 'mof801.itp')
-'''
 

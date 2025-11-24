@@ -2,7 +2,8 @@ def get_mof801_params():
     # [atom_type] = m
     mass = {}
     mass['itcFF_Zr'] = 91.224
-    mass['itcFF_H']  =  1.008
+    mass['itcFF_H1'] =  1.008
+    mass['itcFF_H7'] =  1.008
     mass['itcFF_O1'] = 16.000
     mass['itcFF_O2'] = 16.000
     mass['itcFF_C1'] = 12.011
@@ -11,7 +12,8 @@ def get_mof801_params():
     # [atom_type] = q
     charge = {}
     charge['itcFF_Zr'] =  2.2168
-    charge['itcFF_H']  =  0.2343
+    charge['itcFF_H1'] =  0.2343
+    charge['itcFF_H7'] =  0.2343
     charge['itcFF_O1'] = -0.7785
     charge['itcFF_O2'] = -0.6272
     charge['itcFF_C1'] =  0.7608
@@ -22,10 +24,11 @@ def get_mof801_params():
     bond_params['itcFF_C1-itcFF_C2'] = [1, 0.1514, 259408.438]
     bond_params['itcFF_C2-itcFF_C2'] = [1, 0.1324, 259408.512]
     bond_params['itcFF_C1-itcFF_O1'] = [1, 0.1267, 376560.000]
-    bond_params['itcFF_C2-itcFF_H']  = [1, 0.0930, 284512.408]
+    bond_params['itcFF_C2-itcFF_H1'] = [1, 0.0930, 284512.408]
     bond_params['itcFF_O3-itcFF_Zr'] = [3, 0.2061, 109.0350, 19.8000]
     bond_params['itcFF_O1-itcFF_Zr'] = [3, 0.2240, 109.0350, 19.8000]
     bond_params['itcFF_O2-itcFF_Zr'] = [3, 0.2256, 109.0350, 19.8000]
+    bond_params['itcFF_O2-itcFF_H7'] = [1, 0.1090, 284512.408]
     bond_params['itcFF_Zr-itcFF_Zr'] = [1, 0.3498, 173523.512]    
 
     # [atom_type-atom_type-atom_type] = [funct, angle, k]
