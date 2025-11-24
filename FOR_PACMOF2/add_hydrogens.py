@@ -37,10 +37,11 @@ def add_hydrogens(atoms):
     
     ids_selected = []
     for idx in range(len(atoms)):
-        for o_atom in oxygens_in_one_cluster:
-            for shift in shifts:
-                if np.linalg.norm(o_atom + shift - atoms[idx].r) < 1.0:
-                    ids_selected.append(idx)
+        if atoms[idx].mol2name == 'O3':
+            for o_atom in oxygens_in_one_cluster:
+                for shift in shifts:
+                    if np.linalg.norm(o_atom + shift - atoms[idx].r) < 1.0:
+                        ids_selected.append(idx)
     ids_selected = list(set(ids_selected))
     ids_selected = sorted(ids_selected, reverse=True)
     

@@ -52,6 +52,11 @@ def define_mof801_atom_types(atoms):
     for atom_idx in range(len(atoms)):
         if atoms[atom_idx].name[0] == 'H':
             atoms[atom_idx].atom_type = 'itcFF_H'
+        
+    # define H7: itcFF_H7
+    for atom_idx in range(len(atoms)):
+        if atoms[atom_idx].name[0] == 'H7':
+            atoms[atom_idx].atom_type = 'itcFF_H7'
     
     # define O1: itcFF_O1
     for atom_idx in range(len(atoms)):
@@ -64,31 +69,10 @@ def define_mof801_atom_types(atoms):
     for atom_idx in range(len(atoms)):
         if atoms[atom_idx].name[0] == 'O':
             neighbours = getNeighbourElems(atom_idx)
-            if len(neighbours) == 4 and neighbours[0] == 'O' and neighbours[1] == 'Z' and neighbours[2] == 'Z' and neighbours[3] == 'Z':
-                angle = 0.0
-                if getNeighbours(atom_idx)[1].name[0] == 'Z' and getNeighbours(atom_idx)[2].name[0] == 'Z':
-                    angle = calculate_angle(getNeighbours(atom_idx)[1], atoms[atom_idx], getNeighbours(atom_idx)[2])
-                if getNeighbours(atom_idx)[2].name[0] == 'Z' and getNeighbours(atom_idx)[3].name[0] == 'Z':
-                    angle = calculate_angle(getNeighbours(atom_idx)[2], atoms[atom_idx], getNeighbours(atom_idx)[3])
-                if getNeighbours(atom_idx)[3].name[0] == 'Z' and getNeighbours(atom_idx)[1].name[0] == 'Z':
-                    angle = calculate_angle(getNeighbours(atom_idx)[3], atoms[atom_idx], getNeighbours(atom_idx)[1])
-                if angle < 2.0:
-                    atoms[atom_idx].atom_type = 'itcFF_O2'
-        
-    # define O2: itcFF_O3
-    for atom_idx in range(len(atoms)):
-        if atoms[atom_idx].name[0] == 'O':
-            neighbours = getNeighbourElems(atom_idx)
-            if len(neighbours) == 4 and neighbours[0] == 'O' and neighbours[1] == 'Z' and neighbours[2] == 'Z' and neighbours[3] == 'Z':
-                angle = 0.0
-                if getNeighbours(atom_idx)[1].name[0] == 'Z' and getNeighbours(atom_idx)[2].name[0] == 'Z':
-                    angle = calculate_angle(getNeighbours(atom_idx)[1], atoms[atom_idx], getNeighbours(atom_idx)[2])
-                if getNeighbours(atom_idx)[2].name[0] == 'Z' and getNeighbours(atom_idx)[3].name[0] == 'Z':
-                    angle = calculate_angle(getNeighbours(atom_idx)[2], atoms[atom_idx], getNeighbours(atom_idx)[3])
-                if getNeighbours(atom_idx)[3].name[0] == 'Z' and getNeighbours(atom_idx)[1].name[0] == 'Z':
-                    angle = calculate_angle(getNeighbours(atom_idx)[3], atoms[atom_idx], getNeighbours(atom_idx)[1])
-                if angle > 2.0:
-                    atoms[atom_idx].atom_type = 'itcFF_O3'
+            if len(neighbours) == 3 and neighbours[0] == 'Z' and neighbours[1] == 'Z' and neighbours[2] == 'Z':
+                atoms[atom_idx].atom_type = 'itcFF_O2'
+            if len(neighbours) == 4 and neighbours[0] == 'H' and neighbours[1] == 'Z' and neighbours[2] == 'Z' and neighbours[3] == 'Z':
+                atoms[atom_idx].atom_type = 'itcFF_O2'
                     
     # define C1: itcFF_C1
     for atom_idx in range(len(atoms)):
@@ -106,9 +90,18 @@ def define_mof801_atom_types(atoms):
     return atoms
 
 def check_mof801_atom_names(atoms):
+    def getNeighbours(atom_idx):
+        return [atoms[adj_idx] for adj_idx in atoms[atom_idx].adjacency]
+    
+    def getNeighbourElems(atom_idx):
+        return np.sort([atom.name[0] for atom in getNeighbours(atom_idx)])
+    
+    def getElem(atom_idx):
+        return atoms[atom_idx].name[0]
+    
     for atom_idx in range(len(atoms)):
         if atoms[atom_idx].atom_type == 'unk_type':
-            print('ERROR', atom_idx, atoms[atom_idx].name)            
+            print('ERROR', atom_idx, atoms[atom_idx].name, atoms[atom_idx].mol2name)            
             print(getElem(atom_idx), getNeighbourElems(atom_idx))
 
 def define_mof801_atom_names(atoms):  

@@ -47,4 +47,5 @@ atoms = remove_atoms(atoms, list(set(list(np.arange(len(atoms)))) ^ set(ids_sele
 atoms = add_hydrogens(atoms)
 
 # STEP 4. Write data
-write_mol2_file(atoms, 'mof801_333.mol2', a, b, c, alpha, beta, gamma)
+# write_mol2_file(atoms, 'mof801_222.mol2', a, b, c, alpha, beta, gamma)
+write_mol2_file(atoms, 'mof801_444.mol2', a, b, c, alpha, beta, gamma)
