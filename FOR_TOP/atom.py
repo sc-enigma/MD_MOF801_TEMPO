@@ -23,7 +23,7 @@ def copy_atom(atom):
     a.resid = atom.resid
     a.atom_idx = atom.atom_idx
     a.atom_type = atom.atom_type
-    self.mol2name = atom.mol2name
+    a.mol2name = atom.mol2name
     a.r_internal = np.array(a.r_internal)
     a.adjacency = atom.adjacency.copy()
     return a
