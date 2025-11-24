@@ -34,7 +34,7 @@ def add_hydrogens(atoms):
                     for idx_z_shift1 in range(-2, 3):
                         new_shift = x_shift1 * idx_x_shift1 + x_shift2 * idx_x_shift2 + y_shift1 * idx_y_shift1 + y_shift2 * idx_y_shift2 + z_shift1 * idx_z_shift1 
                         shifts = add_unique(shifts, new_shift)
-    print('1')
+    
     ids_selected = []
     for idx in range(len(atoms)):
         for o_atom in oxygens_in_one_cluster:
@@ -43,7 +43,7 @@ def add_hydrogens(atoms):
                     ids_selected.append(idx)
     ids_selected = list(set(ids_selected))
     ids_selected = sorted(ids_selected, reverse=True)
-    print('2')
+    
     for idx in ids_selected:
         bestShiftVector = np.zeros(3)
         bestDistance = sys.float_info.max
