@@ -6,7 +6,7 @@ sys.path.append('../COMPONENTS')
 from atom import Atom, select_atoms, remove_atoms, mol2_to_atoms, count_atoms, shift_atoms, dump_atoms, count_atoms, shift_atoms
 from read_utils import read_mol2_file
 from write_utils import write_gro_file, write_mol2_file
-from write_utils import write_atoms, write_bonds, write_angles, write_dihedrals, compose_itp_files
+from write_utils import write_atoms, write_bonds, write_angles, write_dihedrals, write_restraints, compose_itp_files
 from params_detector import detect_bonds, detect_angles, detect_dihedrals
 
 from mof801_utils import remove_extra_oxygens, define_mof801_atom_types, define_mof801_atom_names, check_mof801_atom_names
@@ -29,8 +29,6 @@ atoms = define_mof801_atom_types(atoms)
 atoms = define_mof801_atom_names(atoms)
 check_mof801_atom_names(atoms)
 
-detect_angles(atoms)
-
 # STEP 3. Write .gro and .mol2 files
 # with open('__tmp/atoms_zif7_lp.pickle', 'wb') as handle:
 #     pickle.dump(atoms, handle, protocol=pickle.HIGHEST_PROTOCOL)
@@ -44,5 +42,6 @@ write_atoms(atoms, charge, mass, 'MOF', 'atoms.itp')
 write_bonds(atoms, bond_params, 'bonds.itp')
 write_angles(atoms, angle_params, 'angles.itp')
 write_dihedrals(atoms, dihedral_params, 'dihedrals.itp')
-compose_itp_files(['atomtypes.itp', 'moleculetype.itp', 'atoms.itp', 'bonds.itp', 'angles.itp', 'dihedrals.itp'], 'mof801.itp')
+write_restraints(atoms, ['itcFF_Zr', 'itcFF_O1'], 'restraints.itp')
+compose_itp_files(['atomtypes.itp', 'moleculetype.itp', 'atoms.itp', 'bonds.itp', 'angles.itp', 'dihedrals.itp', 'restraints.itp'], 'mof801.itp')
 

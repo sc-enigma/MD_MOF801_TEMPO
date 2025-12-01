@@ -1,14 +1,14 @@
 [ atoms ]
 ;   nr       type  resnr residue  atom   cgnr     charge       mass
-     1   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-     2   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-     3   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-     4   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-     5   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-     6   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-     7   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-     8   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-     9   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+     1   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+     2   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+     3   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+     4   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+     5   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+     6   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+     7   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+     8   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+     9   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
     10   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
     11   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
     12   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -83,18 +83,18 @@
     81   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
     82   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
     83   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-    84   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-    85   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-    86   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-    87   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-    88   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-    89   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-    90   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-    91   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-    92   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-    93   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-    94   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-    95   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+    84   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+    85   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+    86   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+    87   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+    88   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+    89   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+    90   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+    91   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+    92   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+    93   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+    94   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+    95   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
     96   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
     97   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
     98   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -104,15 +104,15 @@
    102   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    103   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    104   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-   105   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   106   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   107   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   108   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   109   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   110   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   111   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   112   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   113   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+   105   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   106   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   107   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   108   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   109   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   110   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   111   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   112   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   113   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
    114   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    115   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    116   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -218,20 +218,20 @@
    216   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    217   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    218   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-   219   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   220   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   221   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   222   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   223   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   224   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   225   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   226   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   227   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   228   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   229   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   230   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   231   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   232   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+   219   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   220   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   221   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   222   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   223   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   224   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   225   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   226   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   227   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   228   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   229   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   230   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   231   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   232   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
    233   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    234   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    235   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -247,13 +247,13 @@
    245   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    246   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    247   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-   248   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   249   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   250   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   251   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   252   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   253   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   254   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+   248   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   249   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   250   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   251   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   252   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   253   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   254   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
    255   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    256   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    257   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -305,12 +305,12 @@
    303   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    304   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    305   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-   306   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   307   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   308   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   309   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   310   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   311   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+   306   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   307   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   308   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   309   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   310   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   311   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
    312   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    313   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    314   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -320,15 +320,15 @@
    318   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    319   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    320   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-   321   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   322   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   323   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   324   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   325   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   326   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   327   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   328   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   329   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+   321   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   322   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   323   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   324   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   325   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   326   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   327   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   328   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   329   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
    330   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    331   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    332   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -434,19 +434,19 @@
    432   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    433   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    434   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-   435   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   436   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   437   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   438   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   439   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   440   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   441   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   442   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   443   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   444   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   445   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   446   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   447   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+   435   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   436   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   437   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   438   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   439   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   440   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   441   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   442   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   443   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   444   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   445   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   446   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   447   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
    448   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    449   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    450   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -460,15 +460,15 @@
    458   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    459   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    460   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-   461   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   462   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   463   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   464   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   465   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   466   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   467   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   468   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   469   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+   461   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   462   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   463   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   464   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   465   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   466   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   467   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   468   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   469   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
    470   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    471   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    472   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -623,21 +623,21 @@
    621   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    622   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    623   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-   624   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   625   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   626   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   627   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   628   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   629   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   630   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   631   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   632   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   633   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   634   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   635   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   636   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   637   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   638   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+   624   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   625   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   626   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   627   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   628   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   629   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   630   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   631   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   632   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   633   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   634   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   635   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   636   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   637   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   638   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
    639   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    640   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    641   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -660,13 +660,13 @@
    658   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    659   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    660   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-   661   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   662   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   663   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   664   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   665   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   666   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   667   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+   661   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   662   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   663   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   664   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   665   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   666   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   667   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
    668   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    669   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    670   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -748,13 +748,13 @@
    746   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    747   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    748   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-   749   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   750   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   751   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   752   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   753   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   754   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   755   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+   749   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   750   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   751   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   752   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   753   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   754   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   755   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
    756   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    757   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    758   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -768,13 +768,13 @@
    766   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    767   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    768   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-   769   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   770   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   771   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   772   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   773   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   774   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   775   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+   769   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   770   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   771   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   772   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   773   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   774   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   775   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
    776   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    777   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    778   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -826,11 +826,11 @@
    824   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    825   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    826   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-   827   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   828   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   829   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   830   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   831   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+   827   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   828   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   829   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   830   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   831   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
    832   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    833   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    834   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -838,13 +838,13 @@
    836   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    837   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    838   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-   839   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   840   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   841   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   842   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   843   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   844   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   845   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+   839   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   840   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   841   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   842   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   843   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   844   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   845   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
    846   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    847   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    848   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -923,12 +923,12 @@
    921   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    922   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    923   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-   924   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   925   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   926   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   927   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   928   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   929   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+   924   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   925   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   926   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   927   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   928   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   929   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
    930   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    931   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    932   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -943,12 +943,12 @@
    941   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    942   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    943   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-   944   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   945   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   946   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   947   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   948   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   949   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+   944   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   945   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   946   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   947   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   948   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   949   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
    950   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    951   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
    952   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -996,8 +996,8 @@
    994   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    995   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
    996   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-   997   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-   998   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+   997   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+   998   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
    999   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1000   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1001   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -1006,15 +1006,15 @@
   1004   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   1005   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   1006   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  1007   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1008   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1009   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1010   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1011   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1012   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1013   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1014   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1015   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  1007   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1008   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1009   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1010   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1011   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1012   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1013   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1014   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1015   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   1016   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1017   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1018   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -1118,18 +1118,18 @@
   1116   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   1117   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   1118   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  1119   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1120   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1121   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1122   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1123   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1124   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1125   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1126   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1127   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1128   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1129   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1130   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  1119   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1120   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1121   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1122   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1123   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1124   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1125   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1126   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1127   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1128   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1129   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1130   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   1131   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1132   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1133   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -1142,15 +1142,15 @@
   1140   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   1141   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   1142   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  1143   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1144   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1145   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1146   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1147   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1148   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1149   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1150   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1151   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  1143   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1144   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1145   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1146   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1147   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1148   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1149   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1150   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1151   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   1152   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1153   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1154   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -1303,20 +1303,20 @@
   1301   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   1302   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   1303   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  1304   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1305   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1306   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1307   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1308   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1309   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1310   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1311   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1312   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1313   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1314   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1315   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1316   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1317   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  1304   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1305   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1306   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1307   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1308   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1309   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1310   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1311   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1312   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1313   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1314   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1315   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1316   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1317   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   1318   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1319   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1320   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -1339,13 +1339,13 @@
   1337   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   1338   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   1339   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  1340   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1341   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1342   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1343   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1344   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1345   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1346   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  1340   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1341   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1342   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1343   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1344   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1345   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1346   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   1347   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1348   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1349   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -1424,12 +1424,12 @@
   1422   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   1423   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   1424   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  1425   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1426   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1427   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1428   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1429   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1430   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  1425   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1426   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1427   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1428   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1429   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1430   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   1431   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1432   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1433   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -1445,15 +1445,15 @@
   1443   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   1444   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   1445   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  1446   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1447   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1448   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1449   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1450   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1451   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1452   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1453   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1454   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  1446   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1447   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1448   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1449   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1450   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1451   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1452   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1453   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1454   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   1455   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1456   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1457   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -1606,19 +1606,19 @@
   1604   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   1605   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   1606   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  1607   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1608   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1609   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1610   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1611   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1612   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1613   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1614   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1615   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1616   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1617   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1618   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1619   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  1607   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1608   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1609   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1610   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1611   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1612   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1613   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1614   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1615   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1616   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1617   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1618   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1619   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   1620   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1621   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1622   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -1638,15 +1638,15 @@
   1636   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   1637   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   1638   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  1639   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1640   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1641   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1642   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1643   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1644   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1645   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1646   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1647   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  1639   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1640   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1641   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1642   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1643   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1644   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1645   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1646   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1647   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   1648   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1649   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1650   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -1887,21 +1887,21 @@
   1885   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   1886   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   1887   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  1888   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1889   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1890   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1891   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1892   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1893   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1894   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1895   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1896   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1897   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1898   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1899   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1900   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1901   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1902   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  1888   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1889   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1890   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1891   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1892   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1893   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1894   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1895   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1896   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1897   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1898   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1899   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1900   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1901   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1902   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   1903   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1904   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1905   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -1934,13 +1934,13 @@
   1932   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   1933   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   1934   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  1935   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1936   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1937   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1938   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1939   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1940   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  1941   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  1935   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1936   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1937   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1938   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1939   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1940   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  1941   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   1942   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1943   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   1944   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -2079,13 +2079,13 @@
   2077   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2078   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2079   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  2080   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2081   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2082   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2083   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2084   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2085   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2086   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  2080   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2081   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2082   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2083   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2084   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2085   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2086   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   2087   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2088   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2089   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -2105,13 +2105,13 @@
   2103   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2104   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2105   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  2106   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2107   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2108   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2109   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2110   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2111   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2112   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  2106   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2107   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2108   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2109   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2110   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2111   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2112   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   2113   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2114   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2115   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -2191,11 +2191,11 @@
   2189   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2190   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2191   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  2192   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2193   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2194   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2195   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2196   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  2192   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2193   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2194   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2195   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2196   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   2197   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2198   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2199   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -2206,13 +2206,13 @@
   2204   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2205   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2206   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  2207   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2208   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2209   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2210   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2211   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2212   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2213   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  2207   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2208   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2209   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2210   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2211   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2212   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2213   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   2214   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2215   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2216   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -2349,12 +2349,12 @@
   2347   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2348   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2349   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  2350   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2351   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2352   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2353   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2354   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2355   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  2350   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2351   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2352   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2353   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2354   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2355   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   2356   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2357   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2358   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -2373,12 +2373,12 @@
   2371   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2372   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2373   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  2374   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2375   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2376   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2377   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2378   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2379   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  2374   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2375   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2376   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2377   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2378   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2379   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   2380   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2381   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2382   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -2465,8 +2465,8 @@
   2463   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2464   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2465   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  2466   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2467   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  2466   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2467   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   2468   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2469   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2470   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -2476,13 +2476,13 @@
   2474   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2475   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2476   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  2477   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2478   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2479   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2480   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2481   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2482   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2483   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  2477   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2478   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2479   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2480   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2481   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2482   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2483   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   2484   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2485   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2486   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -2532,23 +2532,23 @@
   2530   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2531   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2532   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  2533   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2534   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2535   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2536   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  2533   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2534   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2535   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2536   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   2537   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2538   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2539   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2540   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2541   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2542   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  2543   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2544   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2545   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2546   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2547   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2548   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2549   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  2543   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2544   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2545   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2546   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2547   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2548   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2549   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   2550   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2551   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2552   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -2628,11 +2628,11 @@
   2626   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2627   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2628   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  2629   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2630   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2631   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2632   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2633   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  2629   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2630   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2631   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2632   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2633   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   2634   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2635   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2636   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -2644,12 +2644,12 @@
   2642   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2643   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2644   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  2645   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2646   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2647   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2648   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2649   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2650   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  2645   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2646   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2647   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2648   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2649   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2650   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   2651   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2652   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2653   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -2697,7 +2697,7 @@
   2695   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2696   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2697   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  2698   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  2698   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   2699   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2700   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2701   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -2705,13 +2705,13 @@
   2703   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2704   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2705   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  2706   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2707   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2708   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2709   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2710   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2711   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2712   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  2706   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2707   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2708   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2709   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2710   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2711   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2712   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   2713   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2714   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2715   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -2788,10 +2788,10 @@
   2786   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2787   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2788   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  2789   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2790   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2791   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2792   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  2789   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2790   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2791   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2792   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   2793   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2794   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2795   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -2803,13 +2803,13 @@
   2801   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2802   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2803   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  2804   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2805   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2806   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2807   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2808   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2809   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2810   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  2804   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2805   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2806   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2807   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2808   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2809   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2810   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   2811   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2812   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2813   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -2946,11 +2946,11 @@
   2944   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2945   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2946   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  2947   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2948   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2949   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2950   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2951   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  2947   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2948   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2949   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2950   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2951   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   2952   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2953   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2954   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -2967,12 +2967,12 @@
   2965   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2966   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   2967   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  2968   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2969   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2970   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2971   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2972   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  2973   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  2968   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2969   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2970   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2971   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2972   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  2973   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   2974   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2975   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   2976   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -3059,7 +3059,7 @@
   3057   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   3058   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   3059   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  3060   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  3060   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   3061   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   3062   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   3063   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -3067,12 +3067,12 @@
   3065   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   3066   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   3067   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  3068   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  3069   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  3070   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  3071   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  3072   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  3073   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  3068   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  3069   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  3070   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  3071   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  3072   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  3073   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   3074   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   3075   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   3076   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -3123,12 +3123,12 @@
   3121   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   3122   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   3123   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  3124   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  3125   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  3126   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  3127   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  3128   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  3129   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  3124   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  3125   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  3126   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  3127   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  3128   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  3129   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   3130   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   3131   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   3132   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
@@ -3219,12 +3219,12 @@
   3217   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   3218   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
   3219   itcFF_O2      1    MOF    O2      1    -0.9359    16.0000
-  3220   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  3221   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  3222   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  3223   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  3224   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
-  3225   itcFF_Zr      1    MOF    Zr      1     2.1514    91.2240
+  3220   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  3221   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  3222   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  3223   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  3224   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
+  3225   itcFF_Zr      1    MOF    Zr      1     2.0468    91.2240
   3226   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   3227   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
   3228   itcFF_O1      1    MOF    O1      1    -0.7062    16.0000
