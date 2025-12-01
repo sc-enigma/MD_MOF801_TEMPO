@@ -11,7 +11,7 @@ def get_mof801_params():
  
     # [atom_type] = q
     charge = {}
-    charge['itcFF_Zr'] =  2.1514
+    charge['itcFF_Zr'] =  2.0468
     charge['itcFF_H1'] =  0.1353
     charge['itcFF_H7'] =  0.4037
     charge['itcFF_O1'] = -0.7062
@@ -33,17 +33,21 @@ def get_mof801_params():
 
     # [atom_type-atom_type-atom_type] = [funct, angle, k]
     angle_params = {}
-    angle_params['itcFF_O1-itcFF_Zr-itcFF_O1'] = [1,  76.62, 669.440]
-    angle_params['itcFF_C1-itcFF_O1-itcFF_Zr'] = [1, 130.20, 109.500]
-    angle_params['itcFF_Zr-itcFF_Zr-itcFF_Zr'] = [1,  59.95, 527.184]
-    angle_params['itcFF_O2-itcFF_Zr-itcFF_O2'] = [1,  76.26, 669.440]
-    angle_params['itcFF_C1-itcFF_C2-itcFF_C2'] = [1, 118.48, 527.184]
-    angle_params['itcFF_C2-itcFF_C1-itcFF_O1'] = [1, 116.40, 120.400]
-    angle_params['itcFF_O1-itcFF_Zr-itcFF_Zr'] = [1, 109.73, 120.400]
-    angle_params['itcFF_O1-itcFF_C1-itcFF_O1'] = [1, 129.88, 669.440]
-    angle_params['itcFF_Zr-itcFF_O2-itcFF_Zr'] = [1, 101.42, 109.500]
-    angle_params['itcFF_O2-itcFF_Zr-itcFF_Zr'] = [1,  39.38, 120.400]
-    angle_params['itcFF_O1-itcFF_Zr-itcFF_O2'] = [1,  71.29, 669.440]
+    angle_params['itcFF_O1-itcFF_Zr-itcFF_Zr'] = [1, 164.0260, 669.440]
+    angle_params['itcFF_O1-itcFF_Zr-itcFF_O1'] = [1,  76.6239, 669.440]
+    angle_params['itcFF_O2-itcFF_Zr-itcFF_O2'] = [1,  76.6888, 669.440]
+    angle_params['itcFF_O2-itcFF_Zr-itcFF_Zr'] = [1,  39.2636, 669.440]
+    angle_params['itcFF_O1-itcFF_Zr-itcFF_O2'] = [1, 140.8839, 669.440]
+    angle_params['itcFF_Zr-itcFF_Zr-itcFF_Zr'] = [1,  60.0000, 669.440]
+    angle_params['itcFF_Zr-itcFF_O2-itcFF_Zr'] = [1, 101.9165, 669.440]
+
+    angle_params['itcFF_C2-itcFF_C2-itcFF_H1'] = [1, 120.7132, ]
+    angle_params['itcFF_C1-itcFF_O1-itcFF_Zr'] = [1, 131.0393, ]
+    angle_params['itcFF_H7-itcFF_O2-itcFF_Zr'] = [1, 134.8165, ]
+    angle_params['itcFF_O1-itcFF_C1-itcFF_O1'] = [1, 129.8778, ]
+    angle_params['itcFF_C2-itcFF_C1-itcFF_O1'] = [1, 116.4024, ]
+    angle_params['itcFF_C1-itcFF_C2-itcFF_H1'] = [1, 120.8076, ]
+    angle_params['itcFF_C1-itcFF_C2-itcFF_C2'] = [1, 118.4791, ]
     
     # [atom_type-atom_type-atom_type-atom_type] = [funct, angle, k, n]        - periodic
     # [atom_type-atom_type-atom_type-atom_type] = [funct, c1, c2, c3, c4, c5] - fourier

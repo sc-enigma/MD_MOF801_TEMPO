@@ -29,7 +29,7 @@ atoms = define_mof801_atom_types(atoms)
 atoms = define_mof801_atom_names(atoms)
 check_mof801_atom_names(atoms)
 
-count_atoms(atoms)
+detect_angles(atoms)
 
 # STEP 3. Write .gro and .mol2 files
 # with open('__tmp/atoms_zif7_lp.pickle', 'wb') as handle:
