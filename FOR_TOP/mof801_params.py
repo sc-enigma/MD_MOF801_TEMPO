@@ -40,38 +40,37 @@ def get_mof801_params():
     angle_params['itcFF_O1-itcFF_Zr-itcFF_O2'] = [1, 140.8839, 669.440]
     angle_params['itcFF_Zr-itcFF_Zr-itcFF_Zr'] = [1,  60.0000, 669.440]
     angle_params['itcFF_Zr-itcFF_O2-itcFF_Zr'] = [1, 101.9165, 669.440]
-
-    angle_params['itcFF_C2-itcFF_C2-itcFF_H1'] = [1, 120.7132, ] #
-    angle_params['itcFF_C1-itcFF_O1-itcFF_Zr'] = [1, 131.0393, ] #
-    angle_params['itcFF_H7-itcFF_O2-itcFF_Zr'] = [1, 134.8165, ] #
-    angle_params['itcFF_O1-itcFF_C1-itcFF_O1'] = [1, 129.8778, ] #
-    angle_params['itcFF_C2-itcFF_C1-itcFF_O1'] = [1, 116.4024, ] #
-    angle_params['itcFF_C1-itcFF_C2-itcFF_H1'] = [1, 120.8076, ] #
-    angle_params['itcFF_C1-itcFF_C2-itcFF_C2'] = [1, 118.4791, ] #
+    angle_params['itcFF_O1-itcFF_C1-itcFF_O1'] = [1, 129.8778, 669.440]
+    angle_params['itcFF_C2-itcFF_C1-itcFF_O1'] = [1, 116.4024, 669.440] 
+    angle_params['itcFF_C1-itcFF_O1-itcFF_Zr'] = [1, 131.0393, 502.080]
+    angle_params['itcFF_C2-itcFF_C2-itcFF_H1'] = [1, 120.7132, 418.400]
+    angle_params['itcFF_C1-itcFF_C2-itcFF_H1'] = [1, 120.8076, 418.400]
+    angle_params['itcFF_C1-itcFF_C2-itcFF_C2'] = [1, 118.4791, 418.400]
+    angle_params['itcFF_H7-itcFF_O2-itcFF_Zr'] = [1, 134.8165, 460.240]
     
     # [atom_type-atom_type-atom_type-atom_type] = [funct, angle, k, n]        - periodic
     # [atom_type-atom_type-atom_type-atom_type] = [funct, c1, c2, c3, c4, c5] - fourier
     dihedral_params = {}
-    dihedral_params['itcFF_O1-itcFF_Zr-itcFF_Zr-itcFF_O1'] = [9,  69.2207, 3.09616, 2]
-    dihedral_params['itcFF_Zr-itcFF_O2-itcFF_Zr-itcFF_Zr'] = [9, 105.0829, 3.09616, 2]
-    dihedral_params['itcFF_O1-itcFF_Zr-itcFF_Zr-itcFF_Zr'] = [9,   1.1384, 3.09616, 2]
-    dihedral_params['itcFF_O2-itcFF_Zr-itcFF_Zr-itcFF_Zr'] = [9, 154.0040, 3.09616, 2]
-    dihedral_params['itcFF_H7-itcFF_O2-itcFF_Zr-itcFF_O1'] = [9, 105.5045, 3.09616, 2]
-    dihedral_params['itcFF_O2-itcFF_Zr-itcFF_Zr-itcFF_O2'] = [9, 162.0955, 3.09616, 2]
-    dihedral_params['itcFF_C2-itcFF_C1-itcFF_O1-itcFF_Zr'] = [9, 179.9613, 3.09616, 2]
-    dihedral_params['itcFF_O1-itcFF_Zr-itcFF_Zr-itcFF_O2'] = [9, 12.41910, 3.09616, 2]
-    dihedral_params['itcFF_C1-itcFF_O1-itcFF_Zr-itcFF_O1'] = [9, 116.8298, 3.09616, 2]
-    dihedral_params['itcFF_H7-itcFF_O2-itcFF_Zr-itcFF_Zr'] = [9, 166.8349, 3.09616, 2]
-    dihedral_params['itcFF_C1-itcFF_O1-itcFF_Zr-itcFF_Zr'] = [9,   0.9832, 3.09616, 2]
-    dihedral_params['itcFF_H7-itcFF_O2-itcFF_Zr-itcFF_O2'] = [9, 179.0884, 3.09616, 2]
-    dihedral_params['itcFF_Zr-itcFF_Zr-itcFF_Zr-itcFF_Zr'] = [9, 109.5114, 3.09616, 2]
-    dihedral_params['itcFF_O2-itcFF_Zr-itcFF_O2-itcFF_Zr'] = [9, 117.2833, 3.09616, 2]
-    dihedral_params['itcFF_C1-itcFF_O1-itcFF_Zr-itcFF_O2'] = [9,  79.6248, 3.09616, 2]
-    dihedral_params['itcFF_C1-itcFF_C2-itcFF_C2-itcFF_C1'] = [9, 179.8450, 3.09616, 2]
-    dihedral_params['itcFF_O1-itcFF_Zr-itcFF_O2-itcFF_Zr'] = [9, 86.56357, 3.09616, 2]
-    dihedral_params['itcFF_C2-itcFF_C2-itcFF_C1-itcFF_O1'] = [9,   6.5133, 3.09616, 2]
-    dihedral_params['itcFF_Zr-itcFF_Zr-itcFF_O2-itcFF_Zr'] = [9, 105.0829, 3.09616, 2]
-    dihedral_params['itcFF_O1-itcFF_C1-itcFF_O1-itcFF_Zr'] = [9,   0.7736, 3.09616, 2]
+    dihedral_params['itcFF_O1-itcFF_Zr-itcFF_Zr-itcFF_O1'] = [9,  69.2207, 4.60240, 2]
+    dihedral_params['itcFF_Zr-itcFF_O2-itcFF_Zr-itcFF_Zr'] = [9, 105.0829, 4.60240, 2]
+    dihedral_params['itcFF_O1-itcFF_Zr-itcFF_Zr-itcFF_Zr'] = [9,   1.1384, 4.60240, 2]
+    dihedral_params['itcFF_O2-itcFF_Zr-itcFF_Zr-itcFF_Zr'] = [9, 154.0040, 4.60240, 2]
+    dihedral_params['itcFF_H7-itcFF_O2-itcFF_Zr-itcFF_O1'] = [9, 105.5045, 4.60240, 2]
+    dihedral_params['itcFF_O2-itcFF_Zr-itcFF_Zr-itcFF_O2'] = [9, 162.0955, 4.60240, 2]
+    dihedral_params['itcFF_C2-itcFF_C1-itcFF_O1-itcFF_Zr'] = [9, 179.9613, 4.60240, 2]
+    dihedral_params['itcFF_O1-itcFF_Zr-itcFF_Zr-itcFF_O2'] = [9, 12.41910, 4.60240, 2]
+    dihedral_params['itcFF_C1-itcFF_O1-itcFF_Zr-itcFF_O1'] = [9, 116.8298, 4.60240, 2]
+    dihedral_params['itcFF_H7-itcFF_O2-itcFF_Zr-itcFF_Zr'] = [9, 166.8349, 4.60240, 2]
+    dihedral_params['itcFF_C1-itcFF_O1-itcFF_Zr-itcFF_Zr'] = [9,   0.9832, 4.60240, 2]
+    dihedral_params['itcFF_H7-itcFF_O2-itcFF_Zr-itcFF_O2'] = [9, 179.0884, 4.60240, 2]
+    dihedral_params['itcFF_Zr-itcFF_Zr-itcFF_Zr-itcFF_Zr'] = [9, 109.5114, 4.60240, 2]
+    dihedral_params['itcFF_O2-itcFF_Zr-itcFF_O2-itcFF_Zr'] = [9, 117.2833, 4.60240, 2]
+    dihedral_params['itcFF_C1-itcFF_O1-itcFF_Zr-itcFF_O2'] = [9,  79.6248, 4.60240, 2]
+    dihedral_params['itcFF_C1-itcFF_C2-itcFF_C2-itcFF_C1'] = [9, 179.8450, 4.60240, 2]
+    dihedral_params['itcFF_O1-itcFF_Zr-itcFF_O2-itcFF_Zr'] = [9, 86.56357, 4.60240, 2]
+    dihedral_params['itcFF_C2-itcFF_C2-itcFF_C1-itcFF_O1'] = [9,   6.5133, 4.60240, 2]
+    dihedral_params['itcFF_Zr-itcFF_Zr-itcFF_O2-itcFF_Zr'] = [9, 105.0829, 4.60240, 2]
+    dihedral_params['itcFF_O1-itcFF_C1-itcFF_O1-itcFF_Zr'] = [9,   0.7736, 4.60240, 2]
 
 
 
