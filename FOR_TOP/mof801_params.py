@@ -11,13 +11,13 @@ def get_mof801_params():
  
     # [atom_type] = q
     charge = {}
-    charge['itcFF_Zr'] =  2.2168
-    charge['itcFF_H1'] =  0.2343
-    charge['itcFF_H7'] =  0.2343
-    charge['itcFF_O1'] = -0.7785
-    charge['itcFF_O2'] = -0.6272
-    charge['itcFF_C1'] =  0.7608
-    charge['itcFF_C2'] = -0.1282
+    charge['itcFF_Zr'] =  2.1514
+    charge['itcFF_H1'] =  0.1353
+    charge['itcFF_H7'] =  0.4037
+    charge['itcFF_O1'] = -0.7062
+    charge['itcFF_O2'] = -0.9359
+    charge['itcFF_C1'] =  0.6617
+    charge['itcFF_C2'] = -0.2257
 
     # [atom_type-atom_type] = [funct, r0, k]
     bond_params = {}
