@@ -165,7 +165,7 @@ def write_bonds(atoms, bond_params, filename, skip_long_bonds=False):
             if key_reversed in bond_params.keys():
                 params = bond_params[key_reversed]
             else:
-                print('ERROR', key)
+                # print('ERROR', key)
                 continue
         # Write bond params in .itp file
         #         '    2     1     1      0.1529 224262.400'
