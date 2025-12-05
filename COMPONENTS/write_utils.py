@@ -166,6 +166,7 @@ def write_bonds(atoms, bond_params, filename, skip_long_bonds=False):
                 params = bond_params[key_reversed]
             else:
                 print('ERROR', key)
+                continue
         # Write bond params in .itp file
         #         '    2     1     1      0.1529 224262.400'
         file.write(format_val(bond[0]+1,   6   ))
@@ -247,7 +248,7 @@ def write_dihedrals(atoms, dihedral_params, filename, skip_long_bonds=False):
         file.write(format_val(dihedral[1]+1,   6   ))
         file.write(format_val(dihedral[2]+1,   6   ))
         file.write(format_val(dihedral[3]+1,   6   ))
-        file.write(format_val(params[0],     7   ))
+        file.write(format_val(params[0],       7   ))
         if params[0] == 9:
             file.write(format_val(params[1], 7, 3))
             file.write(format_val(params[2], 7, 5))
@@ -276,9 +277,9 @@ def write_restraints(atoms, selected_types, filename, skip_long_bonds=False):
         if atoms[idx_atom].atom_type in selected_types:
             file.write(format_val(idx_atom + 1, 7))
             file.write(format_val(1, 7))
-            file.write(format_val(10000, 7))
-            file.write(format_val(10000, 7))
-            file.write(format_val(10000, 7))
+            file.write(format_val(5000, 7))
+            file.write(format_val(5000, 7))
+            file.write(format_val(5000, 7))
             file.write('\n')
     file.close()
     
