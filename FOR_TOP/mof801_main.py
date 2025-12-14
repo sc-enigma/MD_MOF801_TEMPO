@@ -21,7 +21,7 @@ alpha = 90.00 / 180 * np.pi
 beta  = 90.00 / 180 * np.pi
 gamma = 90.00 / 180 * np.pi
 bounds_a, bounds_b, bounds_c = [0.0, 2.5], [0.0, 2.5], [0.0, 2.5]
-atoms = mol2_to_atoms(read_mol2_file('mof801_444.mol2'))
+atoms = mol2_to_atoms(read_mol2_file('__source_mof801_444.mol2'))
 atoms = shift_atoms(atoms, np.array([-4.4587, -4.4587, -4.4587]))
 
 # STEP 2. Define atom types and names
@@ -32,8 +32,8 @@ check_mof801_atom_names(atoms)
 # STEP 3. Write .gro and .mol2 files
 # with open('__tmp/atoms_zif7_lp.pickle', 'wb') as handle:
 #     pickle.dump(atoms, handle, protocol=pickle.HIGHEST_PROTOCOL)
-write_gro_file(atoms, 'mof_801.gro', a, b, c, alpha, beta, gamma, bounds_a, bounds_b, bounds_c)
-write_mol2_file(atoms, 'mof_801.mol2', a, b, c, alpha, beta, gamma)
+write_gro_file(atoms, 'mof801.gro', a, b, c, alpha, beta, gamma, bounds_a, bounds_b, bounds_c)
+write_mol2_file(atoms, 'mof801.mol2', a, b, c, alpha, beta, gamma)
 
 # STEP 4. Write .itp files
 check_mof801_atom_names(atoms)
@@ -43,5 +43,5 @@ write_bonds(atoms, bond_params, 'bonds.itp')
 write_angles(atoms, angle_params, 'angles.itp')
 write_dihedrals(atoms, dihedral_params, 'dihedrals.itp')
 write_restraints(atoms, ['itcFF_Zr', 'itcFF_O2'], 'restraints.itp')
-compose_itp_files(['atomtypes.itp', 'moleculetype.itp', 'atoms.itp', 'bonds.itp', 'angles.itp', 'dihedrals.itp', 'restraints.itp'], 'mof801.itp')
+compose_itp_files(['moleculetype.itp', 'atoms.itp', 'bonds.itp', 'angles.itp', 'dihedrals.itp', 'restraints.itp'], 'mof801.itp')
 
