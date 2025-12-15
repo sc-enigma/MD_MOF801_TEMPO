@@ -32,12 +32,12 @@ def get_mof801_params():
     
     # [atom_type-atom_type-atom_type] = [funct, angle, k]
     angle_params = {}
-    angle_params['itcFF_O1-itcFF_Zr-itcFF_O1'] = [1,  74.400, 115.776]
+    # angle_params['itcFF_O1-itcFF_Zr-itcFF_O1'] = [1,  74.400, 115.776]
     angle_params['itcFF_O2-itcFF_Zr-itcFF_O2'] = [1, 100.400, 115.776]
-    angle_params['itcFF_O1-itcFF_Zr-itcFF_O2'] = [1, 150.500, 115.776]
+    # angle_params['itcFF_O1-itcFF_Zr-itcFF_O2'] = [1, 150.500, 115.776]
     angle_params['itcFF_C1-itcFF_O1-itcFF_Zr'] = [1, 135.800, 231.637]
-    angle_params['itcFF_O1-itcFF_C1-itcFF_O1'] = [1, 125.000,1213.360]    
-    angle_params['itcFF_C2-itcFF_C1-itcFF_O1'] = [1, 117.300, 456.013]    
+    # angle_params['itcFF_O1-itcFF_C1-itcFF_O1'] = [1, 125.000,1213.360]    
+    # angle_params['itcFF_C2-itcFF_C1-itcFF_O1'] = [1, 117.300, 456.013]    
     angle_params['itcFF_C2-itcFF_C2-itcFF_H1'] = [1, 120.000, 309.616]
     angle_params['itcFF_C1-itcFF_C2-itcFF_H1'] = [1, 120.000, 309.616]
     angle_params['itcFF_C1-itcFF_C2-itcFF_C2'] = [1, 120.000, 231.637]
