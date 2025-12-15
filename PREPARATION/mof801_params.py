@@ -22,8 +22,8 @@ def get_mof801_params():
     # [atom_type-atom_type] = [funct, r0, k]
     bond_params = {}
 
-    bond_params['itcFF_Zr-flexFF_O1'] = [1, 0.2232, 287290.200]
-    bond_params['itcFF_Zr-flexFF_O2'] = [1, 0.2098, 107733.800]   
+    bond_params['itcFF_Zr-itcFF_O1'] = [1, 0.2232, 287290.200]
+    bond_params['itcFF_Zr-itcFF_O2'] = [1, 0.2098, 107733.800]   
     bond_params['itcFF_C1-itcFF_O1'] = [1, 0.1273, 451872.000]
     bond_params['itcFF_O2-itcFF_H7'] = [1, 0.1080, 304106.800]
     bond_params['itcFF_C2-itcFF_H1'] = [1, 0.1080, 304106.800]
