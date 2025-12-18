@@ -132,7 +132,7 @@ def calculate_angle(atom1, atom2, atom3):
     v2 = atom3.r - atom2.r
     cosine_angle = np.dot(v1, v2) / (np.linalg.norm(v1) * np.linalg.norm(v2))
     cosine_angle = np.clip(cosine_angle, -1.0, 1.0)
-    return np.arccos(cosine_angle)
+    return np.arccos(cosine_angle) / np.pi * 180.0
 
 def calculate_dihedral(atom1, atom2, atom3, atom4):
     v1 = atom2.r - atom1.r

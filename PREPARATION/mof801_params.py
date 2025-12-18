@@ -23,24 +23,24 @@ def get_mof801_params():
     bond_params = {}
 
     bond_params['itcFF_Zr-itcFF_O1'] = [1, 0.2232, 287290.200]
-    bond_params['itcFF_Zr-itcFF_O2'] = [1, 0.2098, 107733.800]   
+    bond_params['itcFF_Zr-itcFF_O2'] = [1, 0.2255, 107733.800]   
     bond_params['itcFF_C1-itcFF_O1'] = [1, 0.1273, 451872.000]
     bond_params['itcFF_O2-itcFF_H7'] = [1, 0.1080, 304106.800]
     bond_params['itcFF_C2-itcFF_H1'] = [1, 0.1080, 304106.800]
-    bond_params['itcFF_C1-itcFF_C2'] = [1, 0.1514, 293928.300]
-    bond_params['itcFF_C2-itcFF_C2'] = [1, 0.1324, 293928.300]
+    bond_params['itcFF_C1-itcFF_C2'] = [1, 0.1269, 293928.300]
+    bond_params['itcFF_C2-itcFF_C2'] = [1, 0.1523, 293928.300]
     
-    [atom_type-atom_type-atom_type] = [funct, angle, k]
+    # [atom_type-atom_type-atom_type] = [funct, angle, k]
     angle_params = {}
-    angle_params['itcFF_O1-itcFF_Zr-itcFF_O1'] = [1,  74.400, 115.776]
-    angle_params['itcFF_O2-itcFF_Zr-itcFF_O2'] = [1, 100.400, 115.776]
-    angle_params['itcFF_O1-itcFF_Zr-itcFF_O2'] = [1, 150.500, 115.776]
-    angle_params['itcFF_C1-itcFF_O1-itcFF_Zr'] = [1, 135.800, 231.637]
-    angle_params['itcFF_O1-itcFF_C1-itcFF_O1'] = [1, 125.000,1213.360]    
-    angle_params['itcFF_C2-itcFF_C1-itcFF_O1'] = [1, 117.300, 456.013]    
-    angle_params['itcFF_C2-itcFF_C2-itcFF_H1'] = [1, 120.000, 309.616]
-    angle_params['itcFF_C1-itcFF_C2-itcFF_H1'] = [1, 120.000, 309.616]
-    angle_params['itcFF_C1-itcFF_C2-itcFF_C2'] = [1, 120.000, 231.637]
+    angle_params['itcFF_O1-itcFF_Zr-itcFF_O1'] = [1, [74.400, 120.000], 115.776]
+    angle_params['itcFF_O2-itcFF_Zr-itcFF_O2'] = [1, [71.100, 100.400], 115.776]
+    angle_params['itcFF_O1-itcFF_Zr-itcFF_O2'] = [1, [ 85.700, 124.300, 127.600, 143.500], 115.776]
+    angle_params['itcFF_C1-itcFF_O1-itcFF_Zr'] = [1, [132.000], 231.637]
+    angle_params['itcFF_O1-itcFF_C1-itcFF_O1'] = [1, [129.000],1213.360]    
+    angle_params['itcFF_C2-itcFF_C1-itcFF_O1'] = [1, [117.300], 456.013]    
+    angle_params['itcFF_C2-itcFF_C2-itcFF_H1'] = [1, [120.000], 309.616]
+    angle_params['itcFF_C1-itcFF_C2-itcFF_H1'] = [1, [120.000], 309.616]
+    angle_params['itcFF_C1-itcFF_C2-itcFF_C2'] = [1, [120.000], 231.637]
     
     # [atom_type-atom_type-atom_type-atom_type] = [funct, angle, k, n]        - periodic
     # [atom_type-atom_type-atom_type-atom_type] = [funct, c1, c2, c3, c4, c5] - fourier

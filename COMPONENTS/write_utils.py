@@ -1,6 +1,6 @@
 import numpy as np
 
-from atom import Atom
+from atom import Atom, calculate_angle
 from pbc import calculate_lattice_vectors
 from get_topology_params import getAllBonds, getAllAngles, getAllDihedrals
 
@@ -179,6 +179,10 @@ def write_bonds(atoms, bond_params, filename, skip_long_bonds=False):
     file.close()
     
 def write_angles(atoms, angle_params, filename, skip_long_bonds=False):
+    def find_neares(arr, val):
+        idx = (np.abs(np.array(arr) - val)).argmin()
+        return arr[idx]
+        
     angles = getAllAngles(atoms)
     
     file = open(filename, 'w')
@@ -203,13 +207,16 @@ def write_angles(atoms, angle_params, filename, skip_long_bonds=False):
             else:
                 # print('ERROR', key)
                 continue
+        # calculate ref_angle - select closest value to current from params[1]
+        angle_val = calculate_angle(atoms[angle[0]], atoms[angle[1]], atoms[angle[2]])
+        ref_angle = find_neares(params[1], angle_val)
         # Write angle params in .itp file
         #         '     1      2      3      1    107.500    502.080'
         file.write(format_val(angle[0]+1,  6   ))
         file.write(format_val(angle[1]+1,  6   ))
         file.write(format_val(angle[2]+1,  6   ))
         file.write(format_val(params[0], 7   ))
-        file.write(format_val(params[1], 7, 3))
+        file.write(format_val(ref_angle, 7, 3))
         for i in range(2, len(params)):
             file.write(format_val(params[i], 7, 3))
         file.write('\n')
