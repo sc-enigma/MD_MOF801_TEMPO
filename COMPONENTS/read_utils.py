@@ -16,3 +16,7 @@ def read_mol2_file(filename):
             current_lines.append(line)
     mol2file.close()
     return mol2sections
+
+def read_gro_file(filename):
+    grofile = open(filename, 'r')
+    return [line for line in grofile][2:-1]

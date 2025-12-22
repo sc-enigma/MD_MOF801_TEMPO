@@ -276,7 +276,7 @@ def compose_itp_files(itp_filenames, filename):
         file.write('\n')
     file.close()
 
-def write_restraints(atoms, selected_types, filename, skip_long_bonds=False):
+def write_restraints(atoms, selected_types, filename, force):
     file = open(filename, 'w')
     file.write('[ position_restraints ]\n')
     file.write('; ai   funct    fc\n')
@@ -284,9 +284,9 @@ def write_restraints(atoms, selected_types, filename, skip_long_bonds=False):
         if atoms[idx_atom].atom_type in selected_types:
             file.write(format_val(idx_atom + 1, 7))
             file.write(format_val(1, 7))
-            file.write(format_val(5000, 7))
-            file.write(format_val(5000, 7))
-            file.write(format_val(5000, 7))
+            file.write(format_val(force, 7))
+            file.write(format_val(force, 7))
+            file.write(format_val(force, 7))
             file.write('\n')
     file.close()
     

@@ -17,17 +17,6 @@ class Atom:
         self.r_internal = np.zeros(3)
         self.adjacency = []
 
-def copy_atom(atom):
-    a = Atom(atom.name, np.array(atom.r))
-    a.resid_idx = atom.resid_idx
-    a.resid = atom.resid
-    a.atom_idx = atom.atom_idx
-    a.atom_type = atom.atom_type
-    a.mol2name = atom.mol2name
-    a.r_internal = np.array(a.r_internal)
-    a.adjacency = atom.adjacency.copy()
-    return a
-        
 def mol2_to_atoms(data):
     atoms = []
     
@@ -49,9 +38,30 @@ def mol2_to_atoms(data):
             connected = [int(split[1]) - 1, int(split[2]) - 1]
             atoms[connected[0]].adjacency.append(connected[1])
             atoms[connected[1]].adjacency.append(connected[0])
-        
     return atoms
-    
+
+def gro_to_atoms(data):
+    atoms = []
+    for atom_idx in range(len(data)):
+        split = data[atom_idx].split()
+        name = split[1]
+        r = [float(c) for c in split[3:6]]
+        atoms.append(Atom(name, r))
+        atoms[-1].resid = data[atom_idx][5:8]
+        atoms[-1].atom_idx = atom_idx
+    return atoms
+
+def copy_atom(atom):
+    a = Atom(atom.name, np.array(atom.r))
+    a.resid_idx = atom.resid_idx
+    a.resid = atom.resid
+    a.atom_idx = atom.atom_idx
+    a.atom_type = atom.atom_type
+    a.mol2name = atom.mol2name
+    a.r_internal = np.array(a.r_internal)
+    a.adjacency = atom.adjacency.copy()
+    return a
+
 def count_atoms(atoms):
     count = {}
     for atom_idx in range(len(atoms)):
