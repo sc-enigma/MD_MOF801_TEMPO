@@ -43,5 +43,5 @@ write_bonds(atoms, bond_params, 'bonds.itp')
 write_angles(atoms, angle_params, 'angles.itp')
 write_dihedrals(atoms, dihedral_params, 'dihedrals.itp')
 write_restraints(atoms, ['itcFF_Zr'], 'restraints.itp', 5000)
-compose_itp_files(['moleculetype.itp', 'atoms.itp', 'bonds.itp', 'angles.itp', 'dihedrals.itp', 'restraints.itp'], 'mof801_restrained.itp')
+compose_itp_files(['moleculetype.itp', 'atoms.itp', 'bonds.itp', 'angles.itp', 'dihedrals.itp', 'restraints.itp'], 'mof801.itp')
 
