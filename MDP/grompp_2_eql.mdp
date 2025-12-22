@@ -4,9 +4,9 @@ define                   =
 
 
 ; RUN CONTROL PARAMETERS
-integrator               = steep
-dt                       = 0.01
-nsteps                   = 100000
+integrator               = md
+dt                       = 0.00025
+nsteps                   = 4000000   ; 1 ns
 comm-mode                = Linear
 nstcomm                  = 20
 comm-grps                = MOF
@@ -18,14 +18,14 @@ emstep                   = 0.001
 
 
 ; OUTPUT CONTROL OPTIONS
-nstxout                  = 10
-nstvout                  = 0
+nstxout                  = 0
+nstvout                  = 100       ; 0.1 ps
 nstfout                  = 0
-nstlog                   = 1000
+nstlog                   = 1000      ; 1 ps
 nstcalcenergy            = 20
-nstenergy                = 1000
-nstxout-compressed       = 100
-energygrps               = 
+nstenergy                = 1000      ; 1 ps
+nstxout-compressed       = 100       ; 0.1 ps
+energygrps               = MOF
 
 
 ; NEIGHBORSEARCHING PARAMETERS
@@ -33,10 +33,9 @@ cutoff-scheme            = Verlet
 nstlist                  = 40
 ns_type                  = grid
 pbc                      = xyz
-periodic-molecules       = yes
+periodic-molecules       = no
 verlet-buffer-tolerance  = 0.0001
 rlist                    = 1.4
-
 
 ; OPTIONS FOR ELECTROSTATICS AND VDW
 coulombtype              = PME
@@ -46,6 +45,7 @@ vdwtype                  = Cut-off
 vdw-modifier             = 
 rvdw                     = 1.4
 DispCorr                 = EnerPres
+
 ; EWALD/PME/PPPM parameters
 fourierspacing           = 0.12
 pme_order                = 4
@@ -55,21 +55,16 @@ ewald_rtol               = 1e-05
 ; OPTIONS FOR WEAK COUPLING ALGORITHMS
 ; Temperature coupling  
 tcoupl                   = v-rescale
-tc-grps                  = System
+tc-grps                  = MOF
 tau_t                    = 1.0
-ref_t                    = 300
+ref_t                    = 278
 ; pressure coupling     
 pcoupl                   = no
-pcoupltype               = isotropic
-tau_p                    = 0.5
-compressibility          = 4.5e-5
-ref_p                    = 1.
-refcoord-scaling         = No
 
 
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen-vel                  = yes
-gen-temp                 = 300
+gen-temp                 = 278
 gen-seed                 = 3532
 
 
