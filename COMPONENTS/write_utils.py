@@ -95,7 +95,7 @@ def write_mol2_file(atoms, filename, a, b, c, alpha, beta, gamma, skip_long_bond
         file.write('   ')
         file.write(format_val(atom.mol2name, 5, allign_left=True))
         file.write(format_val(atom.resid_idx, 6))
-        file.write(' RES')
+        file.write(format_val(atom.resid, 4))
         file.write(format_val(atom.resid_idx, 4, allign_left=True))
         file.write('0.0000\n')
         atom_idx += 1

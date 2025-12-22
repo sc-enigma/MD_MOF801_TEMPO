@@ -153,4 +153,37 @@ def calculate_dihedral(atom1, atom2, atom3, atom4):
     cosine_angle = np.dot(n1, n2) / (np.linalg.norm(n1) * np.linalg.norm(n2))
     cosine_angle = np.clip(cosine_angle, -1.0, 1.0)
     return np.arccos(cosine_angle)
+
+def set_residue(atoms, res):
+    for atom_idx in range(len(atoms)):
+        atoms[atom_idx].resid = res
+    return atoms
+
+def add_atoms(atoms1, atoms2):
+    atoms = atoms1 + atoms2
+    for atom_idx in range(len(atoms1), len(atoms)):
+        for adjacency_idx in range(len(atoms[atom_idx].adjacency)):
+            atoms[atom_idx].adjacency[adjacency_idx] += len(atoms1)
+    return atoms
+
+def optimize(atoms, other_atoms, delta):
+    r = np.array([atom.r for atom in atoms])
+    other_r = np.array([atom.r for atom in other_atoms])
+    best_shift = np.zeros(3)
+    best_dist = 0.0
+    for dx in np.linspace(-delta, delta, 10):
+        for dy in np.linspace(-delta, delta, 10):
+            for dz in np.linspace(-delta, delta, 10):
+                shift = np.array([dx, dy, dz])
+                r += shift
+                dist = 1e10
+                for ri in r:
+                    for rj in other_r:
+                        dist = min(dist, np.linalg.norm(ri - rj))
+                r -= shift
+                if dist > best_dist:
+                    best_dist = dist
+                    best_shift = shift
+    return best_shift
+    
     
