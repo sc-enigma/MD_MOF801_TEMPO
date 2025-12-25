@@ -2,7 +2,7 @@ import sys
 import numpy as np
 import pickle
 
-sys.path.append('../COMPONENTS')
+sys.path.append('../../COMPONENTS')
 from atom import Atom, select_atoms, remove_atoms, mol2_to_atoms, count_atoms, shift_atoms, dump_atoms, count_atoms, shift_atoms
 from read_utils import read_mol2_file
 from write_utils import write_gro_file, write_mol2_file

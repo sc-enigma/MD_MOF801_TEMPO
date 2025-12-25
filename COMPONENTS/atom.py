@@ -166,24 +166,4 @@ def add_atoms(atoms1, atoms2):
             atoms[atom_idx].adjacency[adjacency_idx] += len(atoms1)
     return atoms
 
-def optimize(atoms, other_atoms, delta):
-    r = np.array([atom.r for atom in atoms])
-    other_r = np.array([atom.r for atom in other_atoms])
-    best_shift = np.zeros(3)
-    best_dist = 0.0
-    for dx in np.linspace(-delta, delta, 10):
-        for dy in np.linspace(-delta, delta, 10):
-            for dz in np.linspace(-delta, delta, 10):
-                shift = np.array([dx, dy, dz])
-                r += shift
-                dist = 1e10
-                for ri in r:
-                    for rj in other_r:
-                        dist = min(dist, np.linalg.norm(ri - rj))
-                r -= shift
-                if dist > best_dist:
-                    best_dist = dist
-                    best_shift = shift
-    return best_shift
-    
     
