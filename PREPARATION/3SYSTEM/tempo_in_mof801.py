@@ -7,7 +7,6 @@ from atom import Atom, select_atoms, remove_atoms, mol2_to_atoms, count_atoms, s
 from read_utils import read_mol2_file
 from write_utils import write_gro_file, write_mol2_file
 from write_utils import write_atoms, write_bonds, write_angles, write_dihedrals, write_restraints, compose_itp_files
-from system_utils import optimize
 
 a     = 17.8348
 b     = 17.8348
@@ -22,8 +21,7 @@ atoms_tempo = mol2_to_atoms(read_mol2_file('tempo.mol2'))
 atoms_mof801 = set_residue(atoms_mof801, "MOF")
 atoms_tempo = set_residue(atoms_tempo, "TMP")
 
-atoms_tempo = shift_atoms(atoms_tempo, 0.5 * (atoms_mof801[465].r + atoms_mof801[1644].r) - atoms_tempo[0].r)
-atoms_tempo = shift_atoms(atoms_tempo, optimize(atoms_mof801, atoms_tempo, 2.5))
+atoms_tempo = shift_atoms(atoms_tempo, 0.5 * (atoms_mof801[1770].r + atoms_mof801[2272].r) - atoms_tempo[0].r)
 
 atoms = add_atoms(atoms_mof801, atoms_tempo)
 
