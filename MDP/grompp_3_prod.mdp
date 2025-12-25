@@ -6,7 +6,7 @@ define                   =
 ; RUN CONTROL PARAMETERS
 integrator               = md
 dt                       = 0.001
-nsteps                   = 10000000   ; 10 ns
+nsteps                   = 100000000  ; 100 ns
 comm-mode                = Linear
 nstcomm                  = 20
 
