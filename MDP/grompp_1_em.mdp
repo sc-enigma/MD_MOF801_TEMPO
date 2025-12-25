@@ -60,11 +60,11 @@ tau_t                    = 1.0
 ref_t                    = 300
 ; pressure coupling     
 pcoupl                   = no
-pcoupltype               = isotropic
-tau_p                    = 0.5
-compressibility          = 4.5e-5
-ref_p                    = 1.
-refcoord-scaling         = No
+pcoupltype               = 
+tau_p                    = 
+compressibility          = 
+ref_p                    = 
+refcoord-scaling         = 
 
 
 ; GENERATE VELOCITIES FOR STARTUP RUN
