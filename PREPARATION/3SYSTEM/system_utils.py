@@ -1,3 +1,5 @@
+import numpy as np
+
 def optimize(atoms, other_atoms, delta, steps = 5):
     r = np.array([atom.r for atom in atoms])
     other_r = np.array([atom.r for atom in other_atoms])
