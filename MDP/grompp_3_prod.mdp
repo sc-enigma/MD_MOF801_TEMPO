@@ -54,9 +54,9 @@ ewald_rtol               = 1e-05
 ; OPTIONS FOR WEAK COUPLING ALGORITHMS
 ; Temperature coupling  
 tcoupl                   = v-rescale
-tc-grps                  = MOF TMP
-tau_t                    = 1.0 1.0
-ref_t                    = 278 278
+tc-grps                  = MOF TMP SOL
+tau_t                    = 1.0 1.0 1.0
+ref_t                    = 278 278 278
 ; pressure coupling     
 pcoupl                   = no
 
