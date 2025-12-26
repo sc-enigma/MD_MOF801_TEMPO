@@ -6,7 +6,7 @@
 #include "include/mof801.itp"
 
 [ system ]
-MOF801 only
+MOF801
 
 [ molecules ]
 ;molecule name   nr.

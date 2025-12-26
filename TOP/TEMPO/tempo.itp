@@ -1,6 +1,6 @@
 [ moleculetype ]
 ;name            nrexcl
- TEMPO-vsLP       3
+TMP               3
 
 [ atoms ]
 ;   nr  type        resi  res  atom  cgnr     charge      mass     ; qtot   bond_type
